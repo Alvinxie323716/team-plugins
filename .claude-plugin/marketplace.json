@@ -1,0 +1,17 @@
+{
+  "name": "team-plugins",
+  "description": "团队技能市场，集中收录各成员的 Claude Code 技能插件，各插件从各自源仓库自动更新。",
+  "owner": {
+    "name": "Alvinxie323716"
+  },
+  "plugins": [
+    {
+      "name": "drug-marketing-strategy",
+      "description": "药品社媒投放策略分析：输入药品名，输出完整的社媒投放策略报告。",
+      "source": {
+        "source": "github",
+        "repo": "Alvinxie323716/drug-marketing-strategy"
+      }
+    }
+  ]
+}
