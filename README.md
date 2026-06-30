@@ -18,15 +18,4 @@
 
 ## 👥 作者：把你的技能加入本市场
 
-1. 确保你的技能仓库根目录有 `.claude-plugin/plugin.json`（必填 `name`；`version` 留空则按 commit 自动算版本）。
-2. 把仓库结构告诉市场维护者（@Alvinxie323716），由其在本仓库 `.claude-plugin/marketplace.json` 的 `plugins[]` 里追加一条：
-
-```json
-{
-  "name": "你的插件名",
-  "description": "一句话描述",
-  "source": { "source": "github", "repo": "你的账号/你的仓库" }
-}
-```
-
-之后你只管往**自己的仓库** push，使用者（开了自动更新的）即可收到更新——无需改动本市场仓库。
+详细步骤见 [CONTRIBUTING.md](./CONTRIBUTING.md)。简述：给你的技能仓库加一个 `.claude-plugin/plugin.json`，然后把仓库 HTTPS 地址和技能名发给维护者（@Alvinxie323716）登记即可。之后你只管往**自己的仓库** push，使用者（开了自动更新的）即可收到更新——无需改动本市场仓库。
